@@ -1,0 +1,170 @@
+🎯 Script de test pour agents Hex
+
+
+======================================================================
+TEST 1: My Player vs Random Player
+======================================================================
+
+######################################################################
+# TEST COMPLET: my_player vs random_player_hex
+# 20 parties par configuration (total: 40)
+######################################################################
+
+📍 Configuration 1: agent1 joue Rouge (commence)
+
+======================================================================
+🎮 Test: my_player (Rouge) vs random_player_hex (Bleu)
+======================================================================
+Partie 1/20... ✓ my_player gagne (2.5s)
+Partie 2/20... ✓ random_player_hex gagne (2.7s)
+Partie 3/20... ✓ my_player gagne (2.3s)
+Partie 4/20... ✓ random_player_hex gagne (2.3s)
+Partie 5/20... ✓ random_player_hex gagne (2.4s)
+Partie 6/20... ✓ random_player_hex gagne (1.6s)
+Partie 7/20... ✓ random_player_hex gagne (2.6s)
+Partie 8/20... ✓ my_player gagne (2.4s)
+Partie 9/20... ✓ random_player_hex gagne (2.2s)
+Partie 10/20... ✓ random_player_hex gagne (2.6s)
+Partie 11/20... ✓ my_player gagne (2.3s)
+Partie 12/20... ✓ my_player gagne (2.2s)
+Partie 13/20... ✓ random_player_hex gagne (2.2s)
+Partie 14/20... ✓ random_player_hex gagne (2.4s)
+Partie 15/20... ✓ my_player gagne (2.4s)
+Partie 16/20... ✓ random_player_hex gagne (2.3s)
+Partie 17/20... ✓ my_player gagne (2.1s)
+Partie 18/20... ✓ my_player gagne (2.3s)
+Partie 19/20... ✓ random_player_hex gagne (2.4s)
+Partie 20/20... ✓ random_player_hex gagne (1.9s)
+
+======================================================================
+📊 Résultats:
+  my_player: 8/20 victoires (40.0%)
+  random_player_hex: 12/20 victoires (60.0%)
+======================================================================
+
+
+📍 Configuration 2: agent2 joue Rouge (commence)
+
+======================================================================
+🎮 Test: random_player_hex (Rouge) vs my_player (Bleu)
+======================================================================
+Partie 1/20... ✓ random_player_hex gagne (2.2s)
+Partie 2/20... ✓ random_player_hex gagne (2.4s)
+Partie 3/20... ✓ random_player_hex gagne (2.4s)
+Partie 4/20... ✓ random_player_hex gagne (2.5s)
+Partie 5/20... ✓ random_player_hex gagne (2.6s)
+Partie 6/20... ✓ random_player_hex gagne (2.2s)
+Partie 7/20... ✓ random_player_hex gagne (2.6s)
+Partie 8/20... ✓ random_player_hex gagne (2.4s)
+Partie 9/20... ✓ random_player_hex gagne (2.3s)
+Partie 10/20... ✓ random_player_hex gagne (2.3s)
+Partie 11/20... ✓ random_player_hex gagne (2.1s)
+Partie 12/20... ✓ random_player_hex gagne (2.1s)
+Partie 13/20... ✓ random_player_hex gagne (2.3s)
+Partie 14/20... ✓ random_player_hex gagne (2.5s)
+Partie 15/20... ✓ random_player_hex gagne (2.3s)
+Partie 16/20... ✓ random_player_hex gagne (2.3s)
+Partie 17/20... ✓ random_player_hex gagne (2.3s)
+Partie 18/20... ✓ random_player_hex gagne (2.2s)
+Partie 19/20... ✓ random_player_hex gagne (2.3s)
+Partie 20/20... ✓ random_player_hex gagne (2.5s)
+
+======================================================================
+📊 Résultats:
+  random_player_hex: 20/20 victoires (100.0%)
+  my_player: 0/20 victoires (0.0%)
+======================================================================
+
+
+######################################################################
+# 📊 RÉSULTATS FINAUX
+######################################################################
+  my_player: 8/40 victoires (20.0%)
+  random_player_hex: 32/40 victoires (80.0%)
+######################################################################
+
+
+======================================================================
+TEST 2: My Player vs Greedy Player
+======================================================================
+
+######################################################################
+# TEST COMPLET: my_player vs greedy_player_hex
+# 20 parties par configuration (total: 40)
+######################################################################
+
+📍 Configuration 1: agent1 joue Rouge (commence)
+
+======================================================================
+🎮 Test: my_player (Rouge) vs greedy_player_hex (Bleu)
+======================================================================
+Partie 1/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 2/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 3/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 4/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 5/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 6/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 7/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 8/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 9/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 10/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 11/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 12/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 13/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 14/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 15/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 16/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 17/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 18/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 19/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 20/20... ✓ greedy_player_hex gagne (0.5s)
+
+======================================================================
+📊 Résultats:
+  my_player: 0/20 victoires (0.0%)
+  greedy_player_hex: 20/20 victoires (100.0%)
+======================================================================
+
+
+📍 Configuration 2: agent2 joue Rouge (commence)
+
+======================================================================
+🎮 Test: greedy_player_hex (Rouge) vs my_player (Bleu)
+======================================================================
+Partie 1/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 2/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 3/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 4/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 5/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 6/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 7/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 8/20... ✓ greedy_player_hex gagne (0.6s)
+Partie 9/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 10/20... ✓ greedy_player_hex gagne (0.6s)
+Partie 11/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 12/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 13/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 14/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 15/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 16/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 17/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 18/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 19/20... ✓ greedy_player_hex gagne (0.5s)
+Partie 20/20... ✓ greedy_player_hex gagne (0.5s)
+
+======================================================================
+📊 Résultats:
+  greedy_player_hex: 20/20 victoires (100.0%)
+  my_player: 0/20 victoires (0.0%)
+======================================================================
+
+
+######################################################################
+# 📊 RÉSULTATS FINAUX
+######################################################################
+  my_player: 0/40 victoires (0.0%)
+  greedy_player_hex: 40/40 victoires (100.0%)
+######################################################################
+
+
+✅ Tests terminés!
