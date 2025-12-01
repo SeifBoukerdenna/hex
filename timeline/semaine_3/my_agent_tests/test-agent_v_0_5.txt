@@ -1,0 +1,52 @@
+
+==================================================
+TEST SUITE v0.5 - ALPHA-BETA
+==================================================
+
+### vs RANDOM ###
+
+my_player (Rouge) vs random_player_hex (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (21.4s)
+  Partie 2/5... ✓ my_player (23.7s)
+  Partie 3/5... ✓ my_player (19.2s)
+  Partie 4/5... ✓ my_player (40.5s)
+  Partie 5/5... ✓ my_player (26.5s)
+→ my_player: 5/5 | Temps moy: 26.3s
+
+random_player_hex (Rouge) vs my_player (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (24.3s)
+  Partie 2/5... ✓ my_player (21.8s)
+  Partie 3/5... ✓ my_player (28.0s)
+  Partie 4/5... ✓ my_player (50.2s)
+  Partie 5/5... ✓ my_player (39.1s)
+→ random_player_hex: 0/5 | Temps moy: 32.7s
+
+### vs GREEDY ###
+
+my_player (Rouge) vs greedy_player_hex (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (26.3s)
+  Partie 2/5... ✓ my_player (28.8s)
+  Partie 3/5... ✓ my_player (30.3s)
+  Partie 4/5... ✓ my_player (24.6s)
+  Partie 5/5... ✓ my_player (29.8s)
+→ my_player: 5/5 | Temps moy: 28.0s
+
+greedy_player_hex (Rouge) vs my_player (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (36.1s)
+  Partie 2/5... ✓ my_player (36.1s)
+  Partie 3/5... ✓ my_player (37.0s)
+  Partie 4/5... ✓ my_player (35.7s)
+  Partie 5/5... ✓ my_player (37.2s)
+→ greedy_player_hex: 0/5 | Temps moy: 36.4s
+
+==================================================
+RÉSUMÉ FINAL
+==================================================
+vs Random: 10/10 (100%)
+vs Greedy: 10/10 (100%)
+Temps moyen: 30.8s/partie
+==================================================
