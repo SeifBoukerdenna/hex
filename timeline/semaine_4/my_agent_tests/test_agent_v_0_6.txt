@@ -1,0 +1,74 @@
+==================================================
+TEST SUITE v0.6 - ITERATIVE DEEPENING
+==================================================
+
+### vs RANDOM ###
+
+my_player (Rouge) vs random_player_hex (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (20.6s)
+  Partie 2/5... ✓ my_player (23.1s)
+  Partie 3/5... ✓ my_player (27.3s)
+  Partie 4/5... ✓ my_player (26.7s)
+  Partie 5/5... ✓ my_player (31.4s)
+→ my_player: 5/5 | Temps moy: 25.8s
+
+random_player_hex (Rouge) vs my_player (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (30.1s)
+  Partie 2/5... ✓ my_player (39.9s)
+  Partie 3/5... ✓ my_player (20.4s)
+  Partie 4/5... ✓ my_player (23.4s)
+  Partie 5/5... ✓ my_player (23.0s)
+→ random_player_hex: 0/5 | Temps moy: 27.4s
+
+### vs GREEDY ###
+
+my_player (Rouge) vs greedy_player_hex (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (24.0s)
+  Partie 2/5... ✓ my_player (29.9s)
+  Partie 3/5... ✓ my_player (23.7s)
+  Partie 4/5... ✓ my_player (26.8s)
+  Partie 5/5... ✓ my_player (25.0s)
+→ my_player: 5/5 | Temps moy: 25.9s
+
+greedy_player_hex (Rouge) vs my_player (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (34.2s)
+  Partie 2/5... ✓ my_player (35.6s)
+  Partie 3/5... ✓ my_player (36.7s)
+  Partie 4/5... ✓ my_player (37.2s)
+  Partie 5/5... ✓ my_player (36.8s)
+→ greedy_player_hex: 0/5 | Temps moy: 36.1s
+
+### vs v0.5 (previous) ###
+
+my_player (Rouge) vs my_player_v_0_5 (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player (148.8s)
+  Partie 2/5... ✓ my_player (124.9s)
+  Partie 3/5... ✓ my_player (162.9s)
+  Partie 4/5... ✓ my_player (166.5s)
+  Partie 5/5... ✓ my_player (166.6s)
+→ my_player: 5/5 | Temps moy: 153.9s
+
+my_player_v_0_5 (Rouge) vs my_player (Bleu)
+----------------------------------------
+  Partie 1/5... ✓ my_player_v_0_5 (160.6s)
+  Partie 2/5... ✓ my_player_v_0_5 (159.9s)
+  Partie 3/5... ✓ my_player_v_0_5 (135.7s)
+  Partie 4/5... ✓ my_player_v_0_5 (154.2s)
+  Partie 5/5... ✓ my_player_v_0_5 (164.2s)
+→ my_player_v_0_5: 5/5 | Temps moy: 154.9s
+
+==================================================
+RÉSUMÉ v0.6 ITERATIVE DEEPENING
+==================================================
+vs Random: 10/10 (100%)
+vs Greedy: 10/10 (100%)
+vs v0.5:   5/10 (50%)
+Temps moyen: 28.8s/partie
+==================================================
+
+⚠️  time_per_move = 5s (ajustable dans my_player.py)
